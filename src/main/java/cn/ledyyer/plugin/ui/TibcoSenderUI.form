@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cn.ledyyer.plugin.ui.TibcoSenderUI">
+  <grid id="27dc6" binding="root" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="490" height="400"/>
+    </constraints>
+    <properties>
+      <maximumSize width="484" height="169"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9a35d" binding="topOption" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none">
+          <color color="-5194043"/>
+        </border>
+        <children>
+          <component id="a8de5" class="javax.swing.JLabel" binding="serviceText">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text resource-bundle="content/tibcoSenderContent" key="serviceText"/>
+            </properties>
+          </component>
+          <component id="61aef" class="javax.swing.JTextField" binding="serviceInput">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="5e1a3" class="javax.swing.JLabel" binding="networkText">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="11"/>
+              <text resource-bundle="content/tibcoSenderContent" key="networkText"/>
+            </properties>
+          </component>
+          <component id="86fbe" class="javax.swing.JTextField" binding="networkInput">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7d513" class="javax.swing.JLabel" binding="daemonText">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text resource-bundle="content/tibcoSenderContent" key="daemonText"/>
+            </properties>
+          </component>
+          <component id="97944" class="javax.swing.JTextField" binding="daemonInput">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="fe625" class="javax.swing.JLabel" binding="subjectNameText">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text resource-bundle="content/tibcoSenderContent" key="subjectNameText"/>
+            </properties>
+          </component>
+          <component id="9c60c" class="javax.swing.JTextField" binding="subjectNameInput">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1d79f" class="javax.swing.JLabel" binding="timeoutText">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text resource-bundle="content/tibcoSenderContent" key="timeoutText"/>
+            </properties>
+          </component>
+          <component id="34f81" class="javax.swing.JTextField" binding="timeoutInput">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="cf7ec" class="javax.swing.JLabel" binding="fieldNameText">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text resource-bundle="content/tibcoSenderContent" key="fieldNameText"/>
+            </properties>
+          </component>
+          <component id="98e54" class="javax.swing.JTextField" binding="fieldNameInput">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="a0707" binding="content">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="aa0b5" class="javax.swing.JTextArea" binding="messageTextArea">
+            <constraints/>
+            <properties>
+              <font/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="8292" binding="bottomOption" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="eef86" class="javax.swing.JButton" binding="sendButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text resource-bundle="content/tibcoSenderContent" key="sendButton"/>
+            </properties>
+          </component>
+          <hspacer id="4902d">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="e1294" class="javax.swing.JButton" binding="saveButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Save"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="bdc6d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="a0707"/>
+          <text value="Message"/>
+        </properties>
+      </component>
+      <grid id="77c88" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-5194043"/>
+        </border>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
